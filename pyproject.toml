@@ -1,0 +1,19 @@
+[project]
+name = "tiny-llm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "jax>=0.8.1",
+    "pyrefly>=0.42.2",
+    "ruff>=0.14.5",
+]
+
+[tool]
+
+[tool.pyrefly]
+project-includes = [
+    "**/*.py*",
+    "**/*.ipynb",
+]
