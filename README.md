@@ -3,20 +3,20 @@
 Jinx is a high-performance LLM inference and serving framework for large language models. 
 
 ## Background
-This is a toy project to understand LLM inference from a systems point of view. It's a lightweight mix of vLLM and SGLang. Honestly this is a JAX version of skyzh's [Tiny LLM - LLM Serving in a Week](https://skyzh.github.io/tiny-llm/).
+This is a toy project to understand LLM inference from a systems point of view. It's a lightweight mix of vLLM and SGLang. Honestly this is a JAX version of skyzh's [Tiny LLM - LLM Serving in a Week](https://skyzh.github.io/tiny-llm/). I'll also probably build my own model if I got the time and host it to completely understand the machine learning systems stack.
 
 # Specs
-Inspired by John Carmack's .plan files:
+Inspired by John Carmack's .plan files.
 
 **TODO**: Now **[0/3]**
 - **TODO** Model Implementation **[0/7]**
-  - [] Attention
-  - [] RoPE
-  - [] Grouped Query Attention
-  - [] RMSNorm and MLP
-  - [] Load the Model
-  - [] Generate Responses (aka Decoding)
-  - [] Sampling
+  - [ ] Attention
+  - [ ] RoPE
+  - [ ] Grouped Query Attention
+  - [ ] RMSNorm and MLP
+  - [ ] Load the Model
+  - [ ] Generate Responses (aka Decoding)
+  - [ ] Sampling
 - **TODO** Inference System **[0/7]**
   - [ ] Key-Value Cache
   - [ ] Continuous Batching
@@ -68,7 +68,7 @@ Inspired by John Carmack's .plan files:
 
 # Installation 
 ### Model Download 
-I'll be using the smaller Qwen2-0.5B-Instruct model and maybe if I get access to compute in the future, I'll use the bigger Qwen2-7B-Instruct model (Maybe try Modal?). You'll need the huggingface-cli for this as the model parameters are hosted there.
+I'll be using the smaller Qwen2-0.5B-Instruct model and maybe if I get access to compute in the future, I'll use the bigger Qwen2-7B-Instruct model. You'll need the huggingface-cli for this as the model parameters are hosted there.
 
 ```bash
 # On macOS and Linux:
